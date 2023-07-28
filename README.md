@@ -1,2 +1,2 @@
 ![Metrics](/metrics.base.svg)
-![Metrics](/metrics.plugin.anilist.svg)
+![Metrics](/raw.githubusercontent.com/Akvityxs/Akvityxs/main/metrics.plugin.anilist.svg)
