@@ -35,9 +35,6 @@ jobs:
           plugin_topics_limit: 0
           plugin_topics_mode: icons
           plugin_discussions: yes
-          plugin_code: yes
-          plugin_code_languages: javascript, typescript, elixir, csharp, c++
-          plugin_code_load: 400
           plugin_16personalities: yes
           plugin_16personalities_url: ${{ secrets.SIXTEEN_PERSONALITIES_URL }}
           plugin_16personalities_sections: personality, traits
@@ -62,4 +59,6 @@ jobs:
           plugin_leetcode: yes
           plugin_leetcode_user: Akvityxs
           plugin_leetcode_sections: solved, skills, recent
-
+          plugin_achievements: yes
+          plugin_achievements_only: sponsor, maintainer, octonaut, great, super, master
+          plugin_achievements_limit: 5
