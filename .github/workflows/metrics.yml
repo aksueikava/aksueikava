@@ -29,12 +29,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Moscow
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
           plugin_code: yes
           plugin_code_days: 3
           plugin_code_languages: javascript, elixir, typescript, csharp
@@ -66,9 +60,5 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_pagespeed: yes
-          plugin_pagespeed_detailed: yes
-          plugin_pagespeed_pwa: yes
-          plugin_pagespeed_url: https://akvityxs.is-a.dev
           plugin_stars: yes
           plugin_stars_limit: 4
