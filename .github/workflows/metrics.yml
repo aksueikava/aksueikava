@@ -20,6 +20,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           base_indepth: yes
+          output_action: commit
+          committer_branch: metrics-renders
+          committer_message: "chore: update metrics"
           config_order: base.header, isocalendar, languages, notable, discussions, topics
           plugin_isocalendar: yes
           plugin_languages: yes
@@ -47,6 +50,9 @@ jobs:
           filename: medias.svg
           token: NOT_NEEDED
           base: ""
+          output_action: commit
+          committer_branch: metrics-renders
+          committer_message: "chore: update metrics"
           plugin_anilist: yes
           plugin_anilist_user: Akvityxs
           plugin_anilist_medias: anime
