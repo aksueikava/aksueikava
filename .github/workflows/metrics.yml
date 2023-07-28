@@ -35,6 +35,7 @@ jobs:
           plugin_code: yes
           plugin_code_languages: javascript, typescript, elixir, csharp, c++
           plugin_code_load: 400
+          plugin_16personalities: yes
           plugin_16personalities_url: ${{ secrets.SIXTEEN_PERSONALITIES_URL }}
           plugin_16personalities_sections: personality, traits
           plugin_16personalities_scores: no
