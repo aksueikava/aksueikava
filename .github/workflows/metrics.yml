@@ -32,9 +32,6 @@ jobs:
           plugin_topics_limit: 0
           plugin_topics_mode: icons
           plugin_discussions: yes
-          plugin_leetcode: yes
-          plugin_leetcode_user: Akvityxs
-          plugin_leetcode_sections: solved, skills, recent
           
       - name: 🦑 Medias
         if: ${{ success() || failure() }}
@@ -49,4 +46,7 @@ jobs:
           plugin_anilist_sections: favorites, characters
           plugin_anilist_limit: 5
           plugin_anilist_limit_characters: 22
+          plugin_leetcode: yes
+          plugin_leetcode_user: Akvityxs
+          plugin_leetcode_sections: solved, skills, recent
 
