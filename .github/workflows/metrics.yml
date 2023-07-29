@@ -1,13 +1,13 @@
 name: Metrics
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "0 16 * * *"}]
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 jobs:
-  github-metrics:
+  metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -20,8 +20,8 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           base_indepth: yes
-#           output_action: gist
-#           committer_gist: ${{ secrets.GIST }}
+          output_action: commit
+          committer_message: "chore: update metrics"
           config_order: base.header, isocalendar, languages, notable, discussions, topics
           plugin_isocalendar: yes
           plugin_languages: yes
@@ -46,8 +46,8 @@ jobs:
           filename: medias.svg
           token: NOT_NEEDED
           base: ""
-#           output_action: gist
-#           committer_gist: ${{ secrets.GIST }}
+          output_action: commit
+          committer_message: "chore: update metrics"
           plugin_anilist: yes
           plugin_anilist_user: Akvityxs
           plugin_anilist_medias: anime
@@ -61,9 +61,3 @@ jobs:
           plugin_achievements_only: sponsor, maintainer, octonaut, great, super, master
           plugin_achievements_limit: 5
           
-      - name: Commit Metrics Output
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          output_action: commit
-          committer_message: "chore: update metrics"
