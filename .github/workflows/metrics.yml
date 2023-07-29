@@ -60,3 +60,10 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_only: sponsor, maintainer, octonaut, great, super, master
           plugin_achievements_limit: 5
+          
+      - name: Commit Metrics Output
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          output_action: commit
+          committer_message: "chore: update metrics"
