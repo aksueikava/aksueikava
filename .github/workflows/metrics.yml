@@ -57,7 +57,7 @@ jobs:
           plugin_leetcode: yes
           plugin_leetcode_user: Akvityxs
           plugin_leetcode_sections: solved, skills, recent
-          plugin_achievements: yes
-          plugin_achievements_only: sponsor, maintainer, octonaut, great, super, master
-          plugin_achievements_limit: 5
+          plugin_code: yes
+          plugin_code_languages: javascript, typescript, csharp, c++, elixir, python, shell, php, golang
+          plugin_code_load: 400
           
