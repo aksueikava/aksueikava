@@ -49,13 +49,13 @@ jobs:
           output_action: commit
           committer_message: "chore: update metrics"
           plugin_anilist: yes
-          plugin_anilist_user: Akvityxs
+          plugin_anilist_user: aksueikava
           plugin_anilist_medias: anime
           plugin_anilist_sections: favorites, characters
           plugin_anilist_limit: 5
           plugin_anilist_limit_characters: 22
           plugin_leetcode: yes
-          plugin_leetcode_user: Akvityxs
+          plugin_leetcode_user: aksueikava
           plugin_leetcode_sections: solved, skills, recent
           plugin_code: yes
           plugin_code_languages: javascript, typescript, csharp, c++, elixir, python, shell, php, golang
