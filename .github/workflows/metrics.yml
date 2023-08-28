@@ -31,7 +31,7 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_limit: 8
           plugin_topics: yes
-          plugin_topics_limit: 0
+          plugin_topics_limit: 15
           plugin_topics_mode: icons
           plugin_discussions: yes
           plugin_16personalities: yes
