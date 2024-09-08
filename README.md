@@ -1,16 +1,21 @@
-## Hi there 👋
+<h1 align="center">Hello there, I am Watashi o yūwaku suru <img src="https://komarev.com/ghpvc/?username=aksueikava" alt="[aksueikava View Count]"/></h1>
+<h3 align="center">Fullstack Developer, Integration Developer, API Developer, Prompt Engineer, and AI Researcher.</h3>
 
-<!--
-**aksueikava/aksueikava** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am Watashi o yūwaku suru aka(also known as) aksueikava, a Fullstack Developer from the 🌍 **Russian Federation**. Despite my self-deprecating humor, I'm deeply involved in software development & web design, and I assure you, I write very type-safe code.
 
-Here are some ideas to get you started:
+Aside from my development expertise, I engage in UX/UI design, creating interactive and visually elegant websites. In my downtime, I explore artificial intelligence, always seeking innovative ways to integrate AI technologies into my work and have fun with new coding challenges.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I mainly use the .NET ecosystem but I'm fine with other tech' aswell. My thing is mostly backend and pure software programming. I also like doing some reverse engineering things and also making scripts to make my life easier.
+
+As a fervent Next.js enthusiast, an anime enjoyer, and a contributor to numerous repositories I adore, I'm constantly exploring my passions and expanding my horizons.
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=arduino,bash,css,docker,mysql,nodejs,cs,cpp,go,js,py,ts,php,rust,crystal" />
+  </a>
+</p>
+
+## What I’m Working On
+I develop most of my projects to satisfy personal needs or simply for the enjoyment of the development process. There are still many exciting ideas I intend to explore and bring to life.
+
+Always happy to discuss new ideas — feel free to reach out via [Telegram](https://telegram.me/aksueikava).
