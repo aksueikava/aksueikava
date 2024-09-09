@@ -20,9 +20,11 @@ I develop most of my projects to satisfy personal needs or simply for the enjoym
 
 Always happy to discuss new ideas — feel free to reach out via [Telegram](https://telegram.me/aksueikava).
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=100 align="center" src="https://github-readme-stats.vercel.app/api?username=aksueikava&show_icons=true&theme=dark" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img height=100 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=aksueikava&layout=compact&langs_count=8&card_width=280&theme=dark" />
-</a>
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height=180 src="https://github-readme-stats.vercel.app/api?username=aksueikava&show_icons=true&theme=dark" />
+  </a>
+  <a href="https://github.com/anuraghazra/convoychat">
+    <img height=180 src="https://github-readme-stats.vercel.app/api/top-langs?username=aksueikava&layout=compact&langs_count=8&card_width=280&theme=dark" />
+  </a>
+</p>
