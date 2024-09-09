@@ -19,3 +19,10 @@ As a fervent Next.js enthusiast, an anime enjoyer, and a contributor to numerous
 I develop most of my projects to satisfy personal needs or simply for the enjoyment of the development process. There are still many exciting ideas I intend to explore and bring to life.
 
 Always happy to discuss new ideas — feel free to reach out via [Telegram](https://telegram.me/aksueikava).
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=aksueikava&show_icons=true&theme=dark" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=aksueikava&layout=compact&langs_count=8&card_width=280&theme=dark" />
+</a>
